@@ -1,0 +1,48 @@
+.todo {
+	border: 2px solid rgb(209, 209, 209);
+	margin: 0 0 15px 0;
+	border-radius: 25px;
+	padding: 0 0 20px 30px;
+}
+
+.title {
+	width: 90%;
+	text-align: center;
+	padding-bottom: 20px;
+	margin: 30px auto 50px 10px;
+	border-bottom: 1px groove rgb(241, 241, 241);
+	position: relative;
+}
+.buttons {
+	float: right;
+}
+#button {
+	margin: auto 5px auto 5px;
+	background-color: #f5a273;
+}
+.tiles {
+	height: 50vh;
+	overflow: auto;
+	overflow-x: hidden;
+	direction: rtl;
+	text-align: left;
+}
+/* width */
+::-webkit-scrollbar {
+	width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: #f5a273;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+	background: #e78b56;
+}

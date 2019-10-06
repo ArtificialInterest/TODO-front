@@ -1,0 +1,17 @@
+.bottomRight {
+	position: absolute;
+	z-index: 1;
+	right: 40px;
+	bottom: -30px;
+	text-align: center;
+	width: auto;
+}
+
+#actionButton {
+	background-color: #c36730;
+}
+#popover {
+	width: 400px;
+	text-align: center;
+	padding: 30px 0 50px 0;
+}

@@ -1,0 +1,11 @@
+#inputField {
+	width: 60%; /* Could be more or less, depending on screen size */
+	margin: auto;
+}
+#label {
+	margin: 25px 0px 25px 0px;
+}
+#circle {
+	background-color: #c36730;
+	margin-top: 30px;
+}
